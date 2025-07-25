@@ -16,6 +16,7 @@ while True:
         print(f'{Fore.YELLOW}Ədəd dəyişdirildi!{Style.RESET_ALL}')
 
         random_number = randint(1,10)
+        count = 0
 
     elif player > random_number and player <= 10:
         print(f'\n{Fore.CYAN}Daha kiçik!{Style.RESET_ALL}')
